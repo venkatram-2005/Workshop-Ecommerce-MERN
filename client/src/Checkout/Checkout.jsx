@@ -34,7 +34,7 @@ const Checkout = () => {
       }
 
       try {
-        const response = await axios.post("http://localhost:5000/api/payment/create-payment-intent", {
+        const response = await axios.post("https://workshop-ecommerce-mern.onrender.com/api/payment/create-payment-intent", {
           amount: totalPrice * 100,
           customerName,
           customerEmail,
