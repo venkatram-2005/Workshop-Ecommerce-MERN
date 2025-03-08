@@ -1,0 +1,39 @@
+.nav-container {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    background-color: #f8f9fa;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+    border-radius: 5px;  
+    align-items: center; 
+    justify-content: space-between;
+  }
+  
+  /* Link styling */
+  .nav-container a {
+    justify-content: space-between;
+    text-decoration: none;
+    color: #007bff;  
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.3s ease; 
+  }
+  
+  .nav-container a:hover {
+    color: #0056b3;  
+    transform: scale(1.05);  
+  }
+  
+  /* Style for logout link */
+  .nav-container a:last-child {
+    color: #dc3545;  
+  }
+  
+  .nav-container a:last-child:hover {
+    color: #c82333; 
+  }
+  
+  .nav-container .logged-in-links {
+    margin-left: auto; 
+  }
+  
